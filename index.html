@@ -5,10 +5,41 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Ben Piecora's Website">
+  <meta name="author" content="Ben Piecora">
 
   <title>Ben Piecora</title>
+
+  <style>
+  .social-links {
+  background: none;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68094614-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-68094614-1');
+</script>
+
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +60,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Ben Piecora</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Profile">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,6 +86,12 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+      <!--  <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#inquiries">Inquiries</a>
+        </li> -->
       </ul>
     </div>
   </nav>
@@ -66,24 +103,31 @@
         <h1 class="mb-0">Ben
           <span class="text-primary">Piecora</span>
         </h1>
-        <div class="subheading mb-5">1334 Jefferson Ave · West Islip, NY 11795 · (631) 620-8219 ·
+        <div class="subheading mb-5">West Islip, NY · (631) 620-8219 ·
           <a href="mailto:benstechgarage@gmail.com">benstechgarage@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Determined to finish projects, always looking for new projects, I like to keep busy.</p>
         <div class="social-icons">
-          <a href="#">
+          <a href="www.linkedin.com/in/benpiecora">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/benster67">
             <i class="fab fa-github"></i>
           </a>
-          <a href="#">
+          <a href="https://twitter.com/Benster67">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/benpiecora">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
+        <br>
+        <br>
+        <form method="get" action="resume.docx">
+          <button class="btn"><i class="fa fa-download"></i> Download my Resume</button>
+        </form>
+
+
       </div>
     </section>
 
@@ -92,6 +136,32 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2><!---COMPANY LOGOS!!, favicon, links, google analytics, archive-->
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Developer</h3>
+            <div class="subheading mb-3">Freelancer<br>
+            </div>
+            <p>I do Best Buy stuff here. Yep, it's now 3:06 AM and I still can't figure out the issue with the href on the bottom. I hope you like it Mr. Vollmuth. LOL I need to go to bed! Also, where should I put the web dev image? I also want to put a picture of my car on here somewhere. OK I need to go to bed now! Goodnight! One more thing, should I put my name above my profile pic in the NAV. Also, I thought of a good hosting option that is free for students, but they would have to learn version control with Github. I'll talk more about it later. Oh crap now its 4:21 AM...</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <img src ="img/dev2.png" alt= "Best Buy Logo" style="width:225px;height:175px">
+          </div>
+        </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Home Theater / Car Audio / Appliances Sales Consultant</h3>
+            <div class="subheading mb-3">Best Buy<br>
+            </div>
+            <p>I do Best Buy stuff here. Yep, it's now 3:06 AM and I still can't figure out the issue with the href on the bottom. I hope you like it Mr. Vollmuth. LOL I need to go to bed! Also, where should I put the web dev image? I also want to put a picture of my car on here somewhere. OK I need to go to bed now! Goodnight! One more thing, should I put my name above my profile pic in the NAV. Also, I thought of a good hosting option that is free for students, but they would have to learn version control with Github. I'll talk more about it later. Oh crap now its 4:21 AM...</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2019 - Present</span>
+            <img src ="img/bestbuy.jpg" alt= "Best Buy Logo" style="width:225px;height:175px">
+          </div>
+        </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -172,7 +242,8 @@
             <p>Current GPA: 3.73</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">September 2016 - Present</span>
+            <span class="text-primary">September 2016 - Present</span><br>
+            <img src ="img/WI2.jpg" alt= "SBU Logo" style="width:200px;height:200px">
           </div>
         </div>
 
@@ -289,6 +360,12 @@
                       Advanced Audio Production and Equilization</li>
                       <li>
                         <i class="fa-li fa fa-check"></i>
+                      Lighting</li>
+                        <li>
+                          <i class="fa-li fa fa-check"></i>
+                        Digital Photography</li>
+                          <li>
+                        <i class="fa-li fa fa-check"></i>
                         Electronic Circuitry Design / Engineering</li>
                         <li>
                           <i class="fa-li fa fa-check"></i>
@@ -378,6 +455,34 @@
         </ul>
       </div>
     </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
+      <div class="w-100">
+        <h2 class="mb-5">Past / Current Projects</h2>
+        <br>
+      <h4><a href = "https://joesausa.com">Joseph Sausa's Political Campaign Website</h4>
+        <iframe src="https://joesausa.com" style="height:400px;width:900px;"></iframe>
+        <br>
+        <br>
+        <br>
+        <h4><a href = "https://rmli.org">Railroad Museum of Long Island Website</h4>
+        <iframe src="https://rmli.org" style="height:400px;width:900px;"></iframe>
+      </div>
+    </section>
+
+<!--  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="inquiries">
+      <div class="w-100">
+        <h2 class="m">Inquiries / Contact Me</h2>
+      <h4>I am an experienced developer in many aspects, and I am always looking for new projects. If you are interested, don't hesitate to give me a call, or contact me in any of these ways: </h4>
+      <br>
+      <a class="social-links" href= "https://www.youtube.com/channel/UCYwPB7-T5Er_QnmjPBbpQRQ"><img src = "social-logos/youtube-logo.png" alt="YouTube Logo"></a>
+        <a class="social-links" href= "https://www.facebook.com/ben.piecora"><img src = "social-logos/facebook-logo.png" alt="Facebook Logo"></a>
+        <a class="social-links" href= "http://www.twitter.com/benster67"><img src = "social-logos/twitter-logo.png" alt ="Twitter Logo"></a>
+        <a class="social-links" href= "https://plus.google.com/106764633911261647206/videos"><img src="social-logos/google-plus-logo.png" alt="Google+ Logo"></a>
+        <a class="social-links" href="https://www.instagram.com/bens_tech_garage/?hl=en"><img src="social-logos/instagram-logo.png" alt="Instagram Logo"></a>
+        <a class="social-links" href= "mailto:benstechgarage@gmail.com"><img src="social-logos/mail-logo.png" alt="Email Logo"></a>
+      </div>
+    </section> -->
 
   </div>
 
