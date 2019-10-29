@@ -32,6 +32,57 @@
 .btn:hover {
   background-color: RoyalBlue;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 </style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -64,7 +115,13 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Ben Piecora</span>
       <span class="d-none d-lg-block">
+        <h1 style = "color:white">B J P</h1>
+        <br>
+        <br>
+
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Profile">
+        <br>
+        <br>
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,9 +150,12 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
-      <!--  <li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#pictures">Pictures</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#inquiries">Inquiries</a>
-        </li> -->
+        </li>
       </ul>
     </div>
   </nav>
@@ -108,7 +168,7 @@
           <span class="text-primary">Piecora</span>
         </h1>
         <div class="subheading mb-5">West Islip, NY · (631) 620-8219 ·
-          <a href="mailto:benstechgarage@gmail.com">benstechgarage@gmail.com</a>
+          <a href="mailto:piecorab@gmail.com">piecorab@gmail.com</a>
         </div>
         <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Determined to finish projects, always looking for new projects, I like to keep busy.</p>
         <div class="social-icons">
@@ -146,7 +206,7 @@
             <h3 class="mb-0">Web Developer</h3>
             <div class="subheading mb-3">Freelancer<br>
             </div>
-            <p>Web Developer</p>
+            <p>I am an experienced web developer with very well-crafted skills and have designed websites / templates / pages for many different clients over the years, such as non-profit organizations, engineering firms and even local politicians. I am also skilled in working with databases and I have even created my own CMS (Content Management System) in order to make it easier for administrators to manage and modify the contents of their website. I am also experienced with web hosting software such as Apache, and the back end, such as DNS and other architecture.</p>
           </div>
           <div class="resume-date text-md-right">
             <img src ="img/dev2.png" alt= "Best Buy Logo" style="width:225px;height:175px">
@@ -159,7 +219,7 @@
             <h3 class="mb-0">Home Theater / Car Audio / Appliances Sales Consultant</h3>
             <div class="subheading mb-3">Best Buy<br>
             </div>
-            <p>Sales Consultant</p>
+            <p>Working with customers in the Home Theater, Connected Car, and Appliances departments to ‘complete the solution’ for what they need and show them what is possible.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">June 2019 - Present</span>
@@ -258,13 +318,16 @@
             <div class="subheading mb-3">
               <ul>
             <li>Computer Information Technology I&amp;II</li>
-              <li>Cisco Networking Academy Semesters I-II : Routing and Switching</li>
-              <li>Cisco Networking Academy Semesters III-IV : Connecting Networks</li>
+              <li>Cisco Networking Academy Semesters I&amp;II : Routing and Switching</li>
+              <li>Cisco Networking Academy Semesters III&amp;IV : Connecting Networks</li>
               <li>Computer Aided Design (CAD)</li>
               <li>Electricity / Electronics</li>
               <li>Design &amp; Drawing for Production</li>
               <li>Prinicples of Engineering</li>
               <li>Video Production</li>
+              <li>Transportation Systems</li>
+              <li>Automotive Technology</li>
+              <li>Robotics</li>
               <li>Skills in Science Research</li>
               <li>AP Computer Science A</li>
               <li>Physics</li>
@@ -339,6 +402,11 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             	Controlling/Working with Microcontrollers such as Arduino and Raspberry Pi’s</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                	Computer Aided Design (CAD)</li>
+              <li>
+
           <li>
             <i class="fa-li fa fa-check"></i>
             	Computer Integrated Manufacturing</li>
@@ -352,6 +420,14 @@
             <i class="fa-li fa fa-check"></i>
             	Web Development and Design: HTML / CSS / JS</li>
               <li>
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Apache Web Hosting Software</li>
+                  <li>
+                    <li>
+                      <i class="fa-li fa fa-check"></i>
+                      Dynamic DNS / Records</li>
+                      <li>
                 <i class="fa-li fa fa-check"></i>
                 Circuit Board / PCB Design</li>
                 <li>
@@ -406,6 +482,13 @@
                                           <li>
                                             <i class="fa-li fa fa-check"></i>
                                             Radio Frequency (RF) Technology / Engineering</li>
+  <li>  <i class="fa-li fa fa-check"></i>
+                                              Autodesk AutoCAD</li>
+
+                                            <li>
+                                              <i class="fa-li fa fa-check"></i>
+                                              Autodesk Inventor Professional</li>
+
 
         </ul>
       </div>
@@ -434,6 +517,7 @@
             <i class="fa-li fa fa-trophy text-warning"></i>
             Certified Cisco Networking Associate
           </li>
+
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Computer Maintenance and Repair</li>
@@ -458,6 +542,13 @@
 
             Extra Class Amateur Radio Operator</li>
         </ul>
+        <br>
+        <br>
+        <br>
+        <img src = "img/cit1.png" style="width:200px;height:200px" />
+        <img src = "img/cit41.jpg" style="width:200px;height:200px" />
+        <img src = "img/cit3.png" style="width:200px;height:200px" />
+
       </div>
     </section>
 
@@ -465,29 +556,91 @@
       <div class="w-100">
         <h2 class="mb-5">Past / Current Projects</h2>
         <br>
-      <h4><a href = "https://joesausa.com">Joseph Sausa's Political Campaign Website</h4>
-        <iframe src="https://joesausa.com" style="height:400px;width:900px;"></iframe>
+        <h4>I have an upcoming project, a website design for <a href="http://vollbrush.com">Vollmuth & Brush Engineering P.C. </a> which will be added here upon completion.</h4>
+        <br>
+      <h4>Joseph Sausa's Political Campaign Website</h4>
+        <iframe src="https://joesausa.com" style="height:600px;width:1110px;"></iframe>
         <br>
         <br>
         <br>
-        <h4><a href = "https://rmli.org">Railroad Museum of Long Island Website</h4>
-        <iframe src="https://rmli.org" style="height:400px;width:900px;"></iframe>
+        <h4>Railroad Museum of Long Island Website</h4>
+        <iframe src="https://rmli.org" style="height:600px;width:1110px;"></iframe>
       </div>
     </section>
 
-<!--  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="inquiries">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="pictures">
+      <div class="w-100">
+        <h2 class="mb-0">My Life in Pictures</h2>
+        <br>
+        <div class="row">
+          <div class="column">
+            <img src="img/42.JPG" style="width:100%">
+            <img src="img/18.JPG" style="width:100%">
+            <img src="img/35.JPG" style="width:100%">
+            <img src="img/36.JPG" style="width:100%">
+
+          </div>
+          <div class="column">
+            <img src="img/27.JPG" style="width:100%">
+            <img src="img/50.jpg" style="width:100%">
+            <img src="img/26.jpg" style="width:100%">
+            <img src="img/37.JPG" style="width:100%">
+
+          </div>
+          <div class="column">
+            <img src="img/45.jpg" style="width:100%">
+            <img src="img/44.jpg" style="width:100%">
+            <img src="img/29.JPG" style="width:100%">
+            <img src="img/49.JPG" style="width:100%">
+
+          </div>
+          <div class="column">
+            <img src="img/25.JPG" style="width:100%">
+            <img src="img/11.JPG" style="width:100%">
+            <img src="img/12.JPG" style="width:100%">
+            <img src="img/13.JPG" style="width:100%">
+
+          </div>
+        </div>
+        </div>
+    </section>
+
+ <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="inquiries">
       <div class="w-100">
         <h2 class="m">Inquiries / Contact Me</h2>
-      <h4>I am an experienced developer in many aspects, and I am always looking for new projects. If you are interested, don't hesitate to give me a call, or contact me in any of these ways: </h4>
+        <br>
+      <h4>I am an experienced developer in many aspects, and I am always looking for new projects. If you are interested, don't hesitate to give me a call, or contact me using this form: </h4>
       <br>
-      <a class="social-links" href= "https://www.youtube.com/channel/UCYwPB7-T5Er_QnmjPBbpQRQ"><img src = "social-logos/youtube-logo.png" alt="YouTube Logo"></a>
-        <a class="social-links" href= "https://www.facebook.com/ben.piecora"><img src = "social-logos/facebook-logo.png" alt="Facebook Logo"></a>
-        <a class="social-links" href= "http://www.twitter.com/benster67"><img src = "social-logos/twitter-logo.png" alt ="Twitter Logo"></a>
-        <a class="social-links" href= "https://plus.google.com/106764633911261647206/videos"><img src="social-logos/google-plus-logo.png" alt="Google+ Logo"></a>
-        <a class="social-links" href="https://www.instagram.com/bens_tech_garage/?hl=en"><img src="social-logos/instagram-logo.png" alt="Instagram Logo"></a>
-        <a class="social-links" href= "mailto:benstechgarage@gmail.com"><img src="social-logos/mail-logo.png" alt="Email Logo"></a>
+      <form class="contact-form" action="send_script.php" method="post">
+						<div class="form-group">
+
+							<input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name">
+						</div>
+						<div class="form-group">
+
+							<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+						</div>
+						<div class="form-group">
+
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+						</div>
+						<div class="form-group">
+
+							<input type="text" class="form-control field-half-width" id="zip" name="zip" placeholder="ZIP">
+						</div>
+						<div class="form-group">
+
+							<input type="text" class="form-control field-half-width" id="phone" name="phone" placeholder="Phone #">
+						</div>
+
+						<div class="form-group">
+
+							<textarea name="comments" id="comments" class="form-control" rows="10" placeholder="Comments"></textarea>
+						</div>
+						<button type="submit" class="btn btn-default" name="send_message_btn">Send</button>
+					</form> <!-- contact-form -->
       </div>
-    </section> -->
+    </section>
 
   </div>
 
